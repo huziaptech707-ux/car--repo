@@ -1,0 +1,228 @@
+body{
+background:#0b1320;
+}
+
+/* Navbar Background Gradient */
+.navbar{
+background: linear-gradient(45deg,#0a1a32,#1f4b7a);
+padding:12px 0;
+}
+
+/* Logo Hover Animation */
+.navbar-brand{
+transition:0.4s;
+}
+
+.navbar-brand:hover{
+transform: scale(1.1);
+text-shadow:0px 0px 10px #ffc107;
+}
+
+/* Menu Animation */
+.nav-link{
+position:relative;
+font-size:17px;
+margin:0 8px;
+transition:0.3s;
+}
+
+.nav-link::after{
+content:"";
+position:absolute;
+width:0%;
+height:2px;
+left:0;
+bottom:0;
+background:#ffc107;
+transition:0.4s;
+}
+
+.nav-link:hover::after{
+width:100%;
+}
+
+.nav-link:hover{
+color:#ffc107 !important;
+}
+
+/* Mobile Menu Animation */
+.navbar-collapse{
+animation: fadeSlide 0.4s ease;
+}
+
+@keyframes fadeSlide{
+from{
+opacity:0;
+transform:translateY(-15px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+body{
+background:#0b1320;
+color:white;
+}
+
+.navbar{
+background:linear-gradient(45deg,#0a1a32,#1f4b7a);
+}
+
+.carousel img{
+height:550px;
+object-fit:cover;
+}
+
+.card{
+transition:0.4s;
+border:none;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 15px #ffc107;
+}
+body{
+background:#0b1320;
+color:white;
+}
+
+.car-card{
+background:#121c2f;
+border:none;
+transition:0.4s;
+}
+
+.car-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 15px #ffc107;
+}
+/* Services Section */
+.services-section{
+background:#0b1320;
+}
+
+.service-card{
+background:#121c2f;
+border-radius:15px;
+transition:0.4s;
+}
+
+.service-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #ffc107;
+}
+
+/* Responsive text */
+@media(max-width:768px){
+.services-section h2{
+font-size:24px;
+}
+}
+.highlight-strip{
+  background:#0b1320;
+  border-top:3px solid #ffc107;
+  border-bottom:3px solid #ffc107;
+}
+
+.highlight-strip h4{
+  letter-spacing:1px;
+}
+
+@media(max-width:768px){
+  .highlight-strip h4{
+    font-size:18px;
+  }
+}
+/* About Banner */
+.about-banner{
+  height:60vh;
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+  url('image/url.jpg');
+  background-size:cover;
+  background-position:center;
+}
+
+/* About Company */
+.about-company{
+  background:#0b1320;
+}
+
+.about-img{
+  transition:0.4s;
+}
+
+.about-img:hover{
+  transform:scale(1.05);
+  box-shadow:0 0 20px #ffc107;
+}
+
+/* Why Choose */
+.why-choose{
+  background:#111827;
+}
+
+.why-card{
+  background:#121c2f;
+  border-radius:15px;
+  transition:0.4s;
+}
+
+.why-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 0 15px #ffc107;
+}
+
+/* Stats */
+.stats-section{
+  background:#0b1320;
+}
+
+/* Mobile */
+@media(max-width:768px){
+  .about-banner{
+    height:40vh;
+  }
+}
+.contact-section{
+background:#0b1320;
+}
+
+.contact-card{
+background:#121c2f;
+border-radius:15px;
+transition:0.4s;
+}
+
+.contact-card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 15px #ffc107;
+}
+
+.map-card iframe{
+border-radius:15px;
+transition:0.4s;
+}
+
+.map-card iframe:hover{
+box-shadow:0 0 15px #ffc107;
+}
+
+/* Inputs */
+.form-control{
+border-radius:25px;
+padding:12px;
+border:none;
+}
+
+.btn-warning:hover{
+box-shadow:0 0 15px #ffc107;
+}
+
+/* Responsive */
+@media(max-width:768px){
+.contact-section h2{
+font-size:24px;
+}
+}
